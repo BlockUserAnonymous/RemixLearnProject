@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32[3]",
+						"name": "_data",
+						"type": "bytes32[3]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "ID",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "locked",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes16",
+						"name": "_key",
+						"type": "bytes16"
+					}
+				],
+				"name": "unlock",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Privacy.sol": "Privacy"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Privacy.sol": {
+			"keccak256": "0xb2d0683b114b4f4013e5db865a0e15f63b1e51417ba20c5a5591eaa9d580c209",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3c6adb9439d5fac8323f28dde9a6c63af16b37a719830ad59cb83ac24e235025",
+				"dweb:/ipfs/QmfGhkwssVtAS4kK3mwY5x5D6d9HEfCkMZUa2hSmkkCzjL"
+			]
+		}
+	},
+	"version": 1
+}

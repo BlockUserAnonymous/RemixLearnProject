@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_gas",
+						"type": "uint256"
+					}
+				],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/GateKeepper1.sol": "GatekeeperOneAttacker"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/GateKeepper1.sol": {
+			"keccak256": "0x494a58c81e70bc81f7868ce31aa0edb5c80ee0db02f518e1128c94835fb8b5a4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a1d0995464ce812e9946c03f492e094413028a36556ff570589df060ea66b479",
+				"dweb:/ipfs/Qmdtc75ZHqVHMuMihQGPQwS25HhxC7zyaxJUGycdpm2RiA"
+			]
+		}
+	},
+	"version": 1
+}

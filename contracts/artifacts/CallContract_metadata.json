@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bool",
+						"name": "successs",
+						"type": "bool"
+					},
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "Response",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "callSetX",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/call.sol": "CallContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/call.sol": {
+			"keccak256": "0xd04cf8ba40d06f7586500450bd3436e9ed0a7a5f29f0a4fb25968d3f06c74dba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f1bef5b2047332e909cf3894e99813fcda530f691b3dfb8a7485025ac5560d67",
+				"dweb:/ipfs/QmU5SFqc3eH6Hd85puCWAQRikGPZj8DNrTtjnSqak2tdSx"
+			]
+		}
+	},
+	"version": 1
+}

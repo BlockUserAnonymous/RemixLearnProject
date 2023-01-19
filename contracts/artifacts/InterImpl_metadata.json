@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getTag",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/impl2.sol": "InterImpl"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/impl2.sol": {
+			"keccak256": "0xadd4b18169f17e64b631797cc22ad06b558a7fe321ed7647cd48f3fc3f0bed9a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b8dfa58c54e50963f9b3cc34a33a9125488db9f35702a97c00602cf8e8e1bcb1",
+				"dweb:/ipfs/QmUbqePKsoPrmp5AQwdRpXNxac44FgwpBsy1isT9SKkXf8"
+			]
+		}
+	},
+	"version": 1
+}

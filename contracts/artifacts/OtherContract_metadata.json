@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "gas",
+						"type": "uint256"
+					}
+				],
+				"name": "Logs",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "getETHBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get_x",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "set_x",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/call.sol": "OtherContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/call.sol": {
+			"keccak256": "0xd04cf8ba40d06f7586500450bd3436e9ed0a7a5f29f0a4fb25968d3f06c74dba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f1bef5b2047332e909cf3894e99813fcda530f691b3dfb8a7485025ac5560d67",
+				"dweb:/ipfs/QmU5SFqc3eH6Hd85puCWAQRikGPZj8DNrTtjnSqak2tdSx"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "flipAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CoilFlip.sol": "CoinFlipAttack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CoilFlip.sol": {
+			"keccak256": "0x6f26a6f23954ba103e68cd93686b73421d6200346e768e28631b548f37bb4ed8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b125b212a17dc3620a5b4e0dcc85c727d436177a946002fb24f3daaceffabf27",
+				"dweb:/ipfs/QmPeHM5PA4bCFo589kMBTHQtfsMk4gtqGsfxRVNxWhbZdx"
+			]
+		}
+	},
+	"version": 1
+}

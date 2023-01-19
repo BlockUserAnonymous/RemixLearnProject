@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "value",
+						"type": "string"
+					}
+				],
+				"name": "CCError",
+				"type": "error"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "value",
+						"type": "string"
+					}
+				],
+				"name": "Success",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_c",
+						"type": "uint256"
+					}
+				],
+				"name": "test1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_c",
+						"type": "uint256"
+					}
+				],
+				"name": "test2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_c",
+						"type": "uint256"
+					}
+				],
+				"name": "test3",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/error.sol": "ErrorImpl"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/error.sol": {
+			"keccak256": "0x511f57514aaaee0d3a9e1f80dc24820345a29ef611c0a0a68cbefb08c8a3a09f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3eaece41edcaa584b5d89b763cc7cb757fe102e321d1c012ac9c51d00776f3de",
+				"dweb:/ipfs/QmPhKwBj93n6ccMHsWwDbxsPsFcjwemkNMVyLzTxs2UFwZ"
+			]
+		}
+	},
+	"version": 1
+}

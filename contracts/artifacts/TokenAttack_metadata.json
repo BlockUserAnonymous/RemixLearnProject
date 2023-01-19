@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_tokenAddr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CoinOverFlow.sol": "TokenAttack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CoinOverFlow.sol": {
+			"keccak256": "0x5b509ca797a6a799618e8110b72480f476dd81b21176113c7ad5c0cc84d4a281",
+			"urls": [
+				"bzz-raw://33d5d94e1d329a3d0fa6a13a6a0303095eb1eb30033d198064276edc95c87d17",
+				"dweb:/ipfs/QmdQECB347JBjDPnq4iq6qNQVq5RkyqxQroJdQa3YPazig"
+			]
+		}
+	},
+	"version": 1
+}

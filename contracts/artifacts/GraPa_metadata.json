@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "msg",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "init",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/pa.sol": "GraPa"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/pa.sol": {
+			"keccak256": "0x13f1af5d888bbf868dd027975df016385fb2a74af4698347395f8ed6a1ebb3e4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9733ee2b2478dd6fc2e78963a071f8e61086c7e4dd0ca066a1792b38fa75aa0d",
+				"dweb:/ipfs/QmbsrBJipsjKdxKqecWtqFpPmZz2ebcdDTJrjv2qYv3bPB"
+			]
+		}
+	},
+	"version": 1
+}
